@@ -1,0 +1,59 @@
+html, body{
+    height: 100%;
+}
+
+.oscurece-img{
+   filter:brightness(0.8);
+}
+
+.fondo-fieldset{
+    background-color: rgb(234, 235,222);
+}
+
+.bg-resalta {
+  background-color: rgb(250, 255, 189) !important;
+}
+
+.img-body-login{
+    background-image: url(../img/PC_Escritorio3.jpg);
+
+
+}
+.bg-login-form{
+    
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 5px;
+}
+
+.img-body-recup{
+    background-image: url(../img/PC_Escritorio3.jpg);
+}
+
+.bg-recup-form{
+    
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+.img-redonda-pq{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+}
+
+
+.btn-redondo{
+    border-radius: 50px;
+}
+
+
+
+.pruebas{
+    text-align: center;
+    border-radius: 20px;
+}
+

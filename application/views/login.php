@@ -27,13 +27,13 @@
 					<article class="card-body">
 						<h4 class="card-title text-center mb-4 mt-1">Inicio de sessión</h4>
 						<hr>
-						<form>
+						<form action="<?= base_url(); ?>index.php/principal/logueo" method="post">
 							<div class="form-group">
 								<div class="input-group">
 									<div class="input-group-prepend">
 										<span class="input-group-text"> <i class="fa fa-user"></i> </span>
 									</div>
-									<input name="" class="form-control" placeholder="Usuario" type="email">
+									<input name="user" class="form-control" placeholder="Usuario" type="text">
 								</div>
 							</div>
 							<div class="form-group">
@@ -41,7 +41,7 @@
 									<div class="input-group-prepend">
 										<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
 									</div>
-									<input class="form-control" placeholder="Contraseña" type="password">
+									<input name="pass" class="form-control" placeholder="Contraseña" type="password">
 								</div>
 							</div>
 							<div class="form-group">

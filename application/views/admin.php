@@ -21,37 +21,37 @@
 	</head>
 	<body>
 		<center>
-		<div class="container">
-			<aside class="col-sm-4">
-				<div id="head-form" class="card">
-					<article class="card-body">
-						<h4 class="card-title text-center mb-4 mt-1">Administrador</h4>
-						<hr>
-						<form>
-                        <div class="form-group">
-												<div class="input-group">
-													<div class="input-group-prepend">
-														<span class="input-group-text"> <i class="fa fa-user"></i> </span>
-													</div>
-													<input name="" class="form-control" placeholder="Nombre" type="email">
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="input-group">
-													<div class="input-group-prepend">
-														<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-													</div>
-													<input class="form-control" placeholder="Contraseña" type="password">
-												</div>
-											</div>
-											<div class="form-group">
-												<button type="submit" class="btn btn-primary btn-block">Ingresar</button>
-											</div>
-						</form>
-					</article>
-				</div>
-			</aside>
-		</div>
+			<div class="container">
+				<aside class="col-sm-4">
+					<div id="head-form" class="card">
+						<article class="card-body">
+							<h4 class="card-title text-center mb-4 mt-1">Administrador</h4>
+							<hr>
+							<form action="<?= base_url(); ?>index.php/principal/logueoAdmin" method="post">
+                        		<div class="form-group">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"> <i class="fa fa-user"></i> </span>
+										</div>
+										<input name="user" class="form-control" placeholder="Nombre" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+										</div>
+										<input name="pass" class="form-control" placeholder="Contraseña" type="password">
+									</div>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+								</div>
+							</form>
+						</article>
+					</div>
+				</aside>
+			</div>
 		</center>
 	</body>
 </html>
